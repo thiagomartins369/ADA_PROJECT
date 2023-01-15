@@ -1,0 +1,23 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid abf7ff78-c0e6-45d6-90c0-5ed890bdc73c)
+
+  (paper "A4")
+
+  (title_block
+    (company "Version: ADA 0-0-0")
+    (comment 1 "Low Fidelity Prototyped")
+    (comment 3 "Author: Thiago Martins de Sousa")
+    (comment 4 "UnB - FGA | Eletronic Engineering")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "List:\n- Power supply (Urgente):\n   - 5V;\n   - 3.3V;\n- Battery;\n- BMS;\n"
+    (at 243.205 179.705 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid cce9b5b2-77fb-42fc-a1e5-12168c35ad2c)
+  )
+)

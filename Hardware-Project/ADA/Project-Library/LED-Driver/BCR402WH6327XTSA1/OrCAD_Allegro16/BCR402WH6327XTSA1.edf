@@ -1,0 +1,119 @@
+
+(EDIF
+  (rename &BCR402WH6327XTSA1 "BCR402WH6327XTSA1")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2023 01 15 20 19 37)
+      (dataOrigin "675270/935220/2.49/4/4/Integrated Circuit")
+      (program "SamacSys ECAD Model BCR402WH6327XTSA1"
+        (version "1.1"))))
+  (library
+  (rename &BCR402WH6327XTSA1 "BCR402WH6327XTSA1")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &BCR402WH6327XTSA1 "BCR402WH6327XTSA1")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "IC")
+          (property (rename PACKAGENAME "PackageName") (string "BCR402WH6327XTSA1"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "SOT343"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Infineon"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "BCR402WH6327XTSA1"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "726-BCR402WH6327XTSA"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BCR402WH6327XTSA1?qs=K00xGehIljswM5X4feTC6g%3D%3D"))
+          (property (rename &Arrow_Part_Number "Arrow Part Number") (string "BCR402WH6327XTSA1"))
+          (property (rename &Arrow_Price_Stock "Arrow Price/Stock") (string "https://www.arrow.com/en/products/bcr402wh6327xtsa1/infineon-technologies-ag?region=nac"))
+          (property (rename &Mouser_Testing_Part_Number "Mouser Testing Part Number") (string ""))
+          (property (rename &Mouser_Testing_Price_Stock "Mouser Testing Price/Stock") (string ""))
+          (property (rename &Description "Description") (string "Infineon BCR402WH6327XTSA1 LED Driver IC, 18 V dc 60mA 4-Pin SOT-343"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.infineon.com/dgdl/Infineon-BCR402W-DS-v02_00-en.pdf?fileId=db3a30431400ef68011407c5054c0192"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "BCR402WH6327XTSA1"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &GND "GND")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &IOUT "IOUT")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &VS "VS")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &REXT "REXT")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &GND (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &IOUT (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &VS (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 700 -200) (pt 900 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 900 -200))))
+            )
+            (portImplementation
+              (name &REXT (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 700 -100) (pt 900 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 900 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 700 0)
+                  (pt 700 -300)
+                  (pt 0 -300)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 750 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 750 30))))
+          )
+        )
+      )
+    )
+  )
+)

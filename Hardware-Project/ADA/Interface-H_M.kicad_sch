@@ -1,0 +1,22 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid ae0b374f-b13a-4058-b96a-82e3fa683b52)
+
+  (paper "A4")
+
+  (title_block
+    (company "Version: ADA 0-0-0")
+    (comment 1 "Low Fidelity Prototyped")
+    (comment 3 "Author: Thiago Martins de Sousa")
+    (comment 4 "UnB - FGA | Eletronic Engineering")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "List Interface Components:\n- Display;\n- Bottoms;" (at 240.03 173.355 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b5bd2ae5-72ac-4656-927e-49a886163b72)
+  )
+)

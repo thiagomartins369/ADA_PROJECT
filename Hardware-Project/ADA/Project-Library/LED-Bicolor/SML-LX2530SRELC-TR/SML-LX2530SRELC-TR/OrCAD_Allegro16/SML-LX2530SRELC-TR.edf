@@ -1,0 +1,116 @@
+
+(EDIF
+  (rename &SML_LX2530SRELC_TR "SML_LX2530SRELC_TR")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2023 01 14 19 38 48)
+      (dataOrigin "2169414/935220/2.49/4/4/LED")
+      (program "SamacSys ECAD Model SML_LX2530SRELC_TR"
+        (version "1.2"))))
+  (library
+  (rename &SML_LX2530SRELC_TR "SML_LX2530SRELC_TR")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &SML_LX2530SRELC_TR "SML_LX2530SRELC_TR")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "LED")
+          (property (rename PACKAGENAME "PackageName") (string "SML_LX2530SRELC_TR"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "SMLLX2530SRELCTR"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "696-LX2530SRELC-TR"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Lumex/SML-LX2530SRELC-TR?qs=26yrLECgo49BUfIwHN7xVg%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Lumex"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "SML-LX2530SRELC-TR"))
+          (property (rename &Description "Description") (string "Standard LEDs - SMD 3x2.5mm LED Bi-Color Red 660nm/940nm"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.lumex.com/spec/SML-LX2530SRELC-TR.pdf"))
+          (property (rename &Height "Height") (string "1.1 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "SML_LX2530SRELC_TR"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &CATHODE_RED "CATHODE_RED")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &ANODE_RED "ANODE_RED")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &ANODE_IR "ANODE_IR")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &CATHODE_IR "CATHODE_IR")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &CATHODE_RED (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &ANODE_RED (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1400 -100) (pt 1600 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 1600 -100))))
+            )
+            (portImplementation
+              (name &ANODE_IR (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &CATHODE_IR (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1400 -200) (pt 1600 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 1600 -200))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 1400 0)
+                  (pt 1400 -300)
+                  (pt 0 -300)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1450 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1450 30))))
+          )
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=BCR402WH6327XTSA1
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2019-09-12 15:23:47
+Downloaded=2023-01-15 20:19:37
+3D=Y

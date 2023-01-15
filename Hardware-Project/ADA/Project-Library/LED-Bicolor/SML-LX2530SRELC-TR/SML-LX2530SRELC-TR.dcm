@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SML-LX2530SRELC-TR
+D Standard LEDs - SMD 3x2.5mm LED Bi-Color Red 660nm/940nm
+K
+F https://www.lumex.com/spec/SML-LX2530SRELC-TR.pdf
+$ENDCMP
+#
+#End Doc Library

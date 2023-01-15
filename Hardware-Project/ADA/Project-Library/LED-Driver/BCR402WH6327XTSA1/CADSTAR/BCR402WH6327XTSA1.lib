@@ -1,0 +1,20 @@
+.BCR402WH6327XTSA1 :1 ;Infineon BCR402WH6327XTSA1 LED Driver IC, 18 V dc 60mA 4-Pin SOT-343
+SOT343
+*STM IC
+*NGS
+*PLB 1="GND" 2="IOUT" 3="VS" 4="REXT"
+*MXP 4
+*DFN BCR402WH6327XTSA1
+~!Manufacturer_Name (Infineon)
+~!Manufacturer_Part_Number (BCR402WH6327XTSA1)
+~!Mouser Part Number (726-BCR402WH6327XTSA)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BCR402WH6327XTSA1?qs=K00xGehIljswM5X4feTC6g%3D%3D)
+~!Arrow Part Number (BCR402WH6327XTSA1)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/bcr402wh6327xtsa1/infineon-technologies-ag?region=nac)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (https://www.infineon.com/dgdl/Infineon-BCR402W-DS-v02_00-en.pdf?fileId=db3a30431400ef68011407c5054c0192)
+~!Height (-)
+~!3D_Model (BCR402WH6327XTSA1)
+BCR402WH6327XTSA1
+1.1!U 2.1!U 3.1!U 4.1!U 

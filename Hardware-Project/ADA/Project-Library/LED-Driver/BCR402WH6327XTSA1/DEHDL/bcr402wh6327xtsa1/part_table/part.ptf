@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BCR402WH6327XTSA1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Infineon", "BCR402WH6327XTSA1" (!) = "", "SOT343", "Other", "726-BCR402WH6327XTSA", "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BCR402WH6327XTSA1?qs=K00xGehIljswM5X4feTC6g%3D%3D", "BCR402WH6327XTSA1", "https://www.arrow.com/en/products/bcr402wh6327xtsa1/infineon-technologies-ag?region=nac", "", "", "Infineon BCR402WH6327XTSA1 LED Driver IC, 18 V dc 60mA 4-Pin SOT-343", "https://www.infineon.com/dgdl/Infineon-BCR402W-DS-v02_00-en.pdf?fileId=db3a30431400ef68011407c5054c0192"
+END_PART
+
+END.

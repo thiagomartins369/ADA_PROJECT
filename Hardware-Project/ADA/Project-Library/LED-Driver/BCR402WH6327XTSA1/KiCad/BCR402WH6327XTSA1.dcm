@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BCR402WH6327XTSA1
+D Infineon BCR402WH6327XTSA1 LED Driver IC, 18 V dc 60mA 4-Pin SOT-343
+K
+F https://www.infineon.com/dgdl/Infineon-BCR402W-DS-v02_00-en.pdf?fileId=db3a30431400ef68011407c5054c0192
+$ENDCMP
+#
+#End Doc Library

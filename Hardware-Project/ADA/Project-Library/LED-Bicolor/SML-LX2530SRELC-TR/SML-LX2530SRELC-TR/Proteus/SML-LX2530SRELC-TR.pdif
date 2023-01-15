@@ -1,0 +1,108 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SML-LX2530SRELC-TR"
+   (description "Standard LEDs - SMD 3x2.5mm LED Bi-Color Red 660nm/940nm")
+   (family "DIO")
+   (package "SMLLX2530SRELCTR")
+   (attribute "Datasheet Link" "https://www.lumex.com/spec/SML-LX2530SRELC-TR.pdf")
+   (attribute "Geometry.Height" "1.1mm")
+   (attribute "Mouser Part Number" "696-LX2530SRELC-TR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumex/SML-LX2530SRELC-TR?qs=26yrLECgo49BUfIwHN7xVg%3D%3D")
+   (attribute "Manufacturer_Name" "Lumex")
+   (attribute "Manufacturer_Part_Number" "SML-LX2530SRELC-TR")
+   (gate
+    (symbol "SML-LX2530SRELC-TR")
+    (pin "CATHODE_RED" 1 PS)
+    (pin "ANODE_RED" 2 PS)
+    (pin "ANODE_IR" 3 PS)
+    (pin "CATHODE_IR" 4 PS)
+   )
+  )
+  (symbol "SML-LX2530SRELC-TR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1600 100) (pt 1600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SMLLX2530SRELCTR"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.5 -1.25)
+      (pt 1.5 -1.25)
+      (pt 1.5 1.25)
+      (pt -1.5 1.25)
+      (pt -1.5 -1.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4 2.35)
+      (pt 3.2 2.35)
+      (pt 3.2 -2.35)
+      (pt -4 -2.35)
+      (pt -4 2.35))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3 0.9)
+      (arc (pt -3.000 0.900) (pt -3.000 0.850) (pt -2.900 0.950) (start 180.0) (sweep 180.0))
+      (pt -2.9 0.9)
+      (arc (pt -2.900 0.900) (pt -3.000 0.850) (pt -2.900 0.950) (start 180.0) (sweep .0))
+      (pt -3 0.9)
+      (arc (pt -3.000 0.900) (pt -3.000 0.850) (pt -2.900 0.950) (start 180.0) (sweep 180.0))
+      (pt -2.9 0.9))))
+   (leg 1 (pt -1.350 0.825) (padstack 0))
+   (leg 2 (pt 1.350 0.825) (padstack 0))
+   (leg 3 (pt -1.350 -0.825) (padstack 0))
+   (leg 4 (pt 1.350 -0.825) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.050 1.700 0 0 0.000))
+   )
+   (model "SML-LX2530SRELC-TR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

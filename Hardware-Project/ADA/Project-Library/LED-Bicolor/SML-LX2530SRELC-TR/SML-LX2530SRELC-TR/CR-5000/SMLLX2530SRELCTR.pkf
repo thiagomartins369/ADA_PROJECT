@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SMLLX2530SRELCTR"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SMLLX2530SRELCTR")
+        (spec "default")
+    )
+)

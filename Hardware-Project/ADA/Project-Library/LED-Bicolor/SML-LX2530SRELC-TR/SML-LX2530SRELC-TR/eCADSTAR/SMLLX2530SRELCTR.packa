@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SML-LX2530SRELC-TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-11-10:19:39)
+    (mountForm default
+        (footprintRef "SMLLX2530SRELCTR")
+        (spec "System")
+    )
+)

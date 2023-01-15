@@ -1,0 +1,115 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "BCR402WH6327XTSA1"
+   (description "Infineon BCR402WH6327XTSA1 LED Driver IC, 18 V dc 60mA 4-Pin SOT-343")
+   (family "ANA")
+   (package "SOT343")
+   (attribute "Datasheet Link" "https://www.infineon.com/dgdl/Infineon-BCR402W-DS-v02_00-en.pdf?fileId=db3a30431400ef68011407c5054c0192")
+   (attribute "Manufacturer_Name" "Infineon")
+   (attribute "Manufacturer_Part_Number" "BCR402WH6327XTSA1")
+   (attribute "Mouser Part Number" "726-BCR402WH6327XTSA")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BCR402WH6327XTSA1?qs=K00xGehIljswM5X4feTC6g%3D%3D")
+   (attribute "Arrow Part Number" "BCR402WH6327XTSA1")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/bcr402wh6327xtsa1/infineon-technologies-ag?region=nac")
+   (attribute "Mouser Testing Part Number" "")
+   (attribute "Mouser Testing Price/Stock" "")
+   (gate
+    (symbol "BCR402WH6327XTSA1")
+    (pin "GND" 1 PS)
+    (pin "IOUT" 2 PS)
+    (pin "VS" 3 PS)
+    (pin "REXT" 4 PS)
+   )
+  )
+  (symbol "BCR402WH6327XTSA1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOT343"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed true)
+      (pt -1 0.625)
+      (pt 1 0.625)
+      (pt 1 -0.625)
+      (pt -1 -0.625)
+      (pt -1 0.625))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -1 0.15)
+      (pt -1 -0.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt 1 0.15)
+      (pt 1 -0.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (circle
+      (pt -1.20008 -1.333) (pt -1.13992 -1.333)
+     )
+    )
+   )
+   (leg 1 (pt -0.65 -0.8) (padstack 0))
+   (leg 2 (pt 0.5 -0.8) (padstack 2))
+   (leg 3 (pt 0.65 0.8) (padstack 0))
+   (leg 4 (pt -0.65 0.8) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.6 0.8 0 0 90))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 0.8 0.9 0 0 0))
+   )
+   (model "BCR402WH6327XTSA1.stp"
+    (euler 0 0 0)
+    (offset -0.019999999552965164 -0.12999999523162842 0.550000011920929)
+   )
+  )
+ )
+)

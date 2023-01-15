@@ -1,0 +1,16 @@
+.SML-LX2530SRELC-TR :1 ;Standard LEDs - SMD 3x2.5mm LED Bi-Color Red 660nm/940nm
+SMLLX2530SRELCTR
+*STM LED
+*NGS
+*PLB 1="CATHODE RED" 2="ANODE RED" 3="ANODE IR" 4="CATHODE IR"
+*MXP 4
+*DFN SML-LX2530SRELC-TR
+~!Mouser Part Number (696-LX2530SRELC-TR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Lumex/SML-LX2530SRELC-TR?qs=26yrLECgo49BUfIwHN7xVg%3D%3D)
+~!Manufacturer_Name (Lumex)
+~!Manufacturer_Part_Number (SML-LX2530SRELC-TR)
+~!Link Datasheet (https://www.lumex.com/spec/SML-LX2530SRELC-TR.pdf)
+~!Height (1.1mm)
+~!3D_Model (SML-LX2530SRELC-TR)
+SML-LX2530SRELC-TR
+1.1!U 2.1!U 3.1!U 4.1!U 

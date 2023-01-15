@@ -1,0 +1,23 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 243ceddf-0ba3-4476-8ab7-fa6b8d4e0f01)
+
+  (paper "A4")
+
+  (title_block
+    (company "Version: ADA 0-0-0")
+    (comment 1 "Low Fidelity Prototyped")
+    (comment 3 "Author: Thiago Martins de Sousa")
+    (comment 4 "UnB - FGA | Eletronic Engineering")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "List Sensors:\n- Temperature Sensor in finger;\n- Ambience Temperature Sensor;\n- Force Sensor.\n- IMU (maybe);"
+    (at 245.11 177.8 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 715ff2d6-8c39-4fe0-8339-f6720ffc7842)
+  )
+)

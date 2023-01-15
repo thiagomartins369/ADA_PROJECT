@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "ESP32-DEVKIT-V1")(type "KiCad")(uri "${KIPRJMOD}/Project-Library/ESP32-DEVKIT-V1/ESP32-DEVKIT-V1.kicad_sym")(options "")(descr "ESP32 DEVKIT V1"))
+  (lib (name "MAX30100-Interface")(type "KiCad")(uri "${KIPRJMOD}/Project-Library/MAX30100-Interface/MAX30100-Interface.kicad_sym")(options "")(descr ""))
+  (lib (name "SML-LX2530SRELC-TR")(type "Legacy")(uri "${KIPRJMOD}/Project-Library/LED-Bicolor/SML-LX2530SRELC-TR/SML-LX2530SRELC-TR.lib")(options "")(descr ""))
+  (lib (name "BCR402WH6327XTSA1")(type "Legacy")(uri "${KIPRJMOD}/Project-Library/LED-Driver/BCR402WH6327XTSA1/KiCad/BCR402WH6327XTSA1.lib")(options "")(descr ""))
+)
